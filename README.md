@@ -45,6 +45,10 @@ The duration (in seconds) to assume the role for. Defaults to 3600 (1 hour).
 
 Exports `AWS_REGION` and `AWS_DEFAULT_REGION` with the value you set. If not set the values of AWS_REGION and AWS_DEFAULT_REGION will not be changed.
 
+### `external_id` (optional)
+
+Unique identifier possibly required for assuming a role in another account.
+
 Development
 -----------
 
